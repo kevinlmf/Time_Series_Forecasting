@@ -38,8 +38,8 @@ End-to-end framework for univariate and multivariate time series forecasting, co
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd TimeSeries_Forecasting
+git clone https://github.com/kevinlmf/Time_Series_Forecasting
+cd Time_Series_Forecasting
 
 # Install dependencies
 pip install -r requirements.txt
@@ -213,30 +213,6 @@ TimeSeries_Forecasting/
 - **tslearn**: Time series machine learning
 - **sktime**: Time series analysis toolkit
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Citation
-
-If you use this framework in your research, please cite:
-
-```bibtex
-@software{timeseries_forecasting,
-  title={TimeSeries_Forecasting: End-to-end Time Series Forecasting Framework},
-  author={Time Series Forecasting Team},
-  year={2024},
-  url={https://github.com/username/TimeSeries_Forecasting}
-}
-```
 
 ## Examples and Tutorials
 
@@ -256,9 +232,3 @@ The framework has been tested on various datasets:
 | GDP Growth | ARIMA | 0.45 | 12.3% | 0.28 |
 | Energy Demand | Transformer | 1.2 | 3.4% | 0.85 |
 
-## Support
-
-For questions and support:
-- Open an issue on GitHub
-- Check the documentation in `docs/`
-- Review example applications in `applications/`
